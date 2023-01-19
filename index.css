@@ -44,6 +44,5 @@ footer{
 }
 
 body{
-    background: url("gif-ambiance-lumineuse-02.gif");
-    
+    background: no-repeat left 0% / 100% 100% url("gif-ambiance-lumineuse-02.gif");    
 }
