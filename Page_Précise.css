@@ -1,35 +1,46 @@
 .image{
-  margin-top: 5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .image>img{
-  width: 40rem;
-  margin-left: 11rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top : 5rem;
+  max-width: 30rem;
+}
+
+input{
+  color: black;
 }
 
 #gauche{
   float: right;
   margin: 5rem;
-  width: 8rem;
-  height: 2rem;
+
 }
 
 h4,li{
   margin-left: 1rem;
 }
 
+h2{
+  font-size: larger;
+}
+
+*{
+  font-size: large;
+  color: white;
+}
 
 @media screen and (max-width : 1600px){
-  .image{
-    flex-direction: column;
-  }
-
   .image>img{
-    margin-left: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top : 0rem;
     margin-bottom: 1rem;
-    width: 20rem;
+    width: auto;
   }
 
   li{

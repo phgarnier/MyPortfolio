@@ -1,8 +1,8 @@
 
 article>a>img{
-    width: 20rem;
+    width: 40rem;
     padding-left: 13rem;
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
     transition: transform .6s;
     display: flex;
@@ -10,7 +10,7 @@ article>a>img{
 }
 
 p{
-    font-size: xx-small;
+    font-size: medium;
 }
 
 div{
@@ -36,14 +36,7 @@ article>a>img:hover{
     }
 }
 
-footer{
-    padding: 2rem;
-    margin-top: 1rem;
-    border: solid 0.2rem black;
-    background: linear-gradient(to left, orange, red);
-}
-
 body{
-    background: no-repeat center 0% / 100% 100% url("gif-ambiance-lumineuse-02.gif");
-    
+   /** background: no-repeat center 0% / 100% 100% url("gif-ambiance-lumineuse-02.gif"); **/
+    background-color: black;
 }

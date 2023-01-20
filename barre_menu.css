@@ -9,17 +9,23 @@ header{
 
 body{
   margin: 0rem;
-  background: linear-gradient(to left, rgb(80, 80, 80), grey);
+  background: black;
   color: beige;
 }
 
 header>h1{
-    font-size: medium;
+    font-size: large;
 }
 
 header>div>a{   
     font-size: medium;
     padding-left: 1rem;
+}
+
+a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: larger;
 }
 
 header>div{
@@ -37,6 +43,14 @@ p,h2,h3{
 header>a>img{
     height : 2rem;
 }
+
+footer{
+    padding: 2rem;
+    margin-top: 1rem;
+    border: solid 0.2rem black;
+    background: linear-gradient(to bottom, black, gray);
+}
+
 
 @media screen and (max-width : 1600px){
     header>a{
